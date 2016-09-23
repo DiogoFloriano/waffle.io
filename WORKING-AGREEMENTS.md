@@ -17,8 +17,12 @@ We plan in one week increments (called Iterations). It's common for interrupt wo
 Since Waffle is continuously deployed via [Codeship](https://codeship.com) when anything is committed to master, it's important for us to use Pull Requests to review code and make sure automated tests pass. Committing directly to master is only acceptable for emergencies, and should still be reviewed by a peer.
 
 ### All PRs should be code reviewed and functionally reviewed before merging
-Ideally PRs should also be deployed to our staging environment, if possible. 
+Ideally PRs should also be deployed to our staging environment, if possible.
+
 Wait until someone gives you a :+1: before merging.
+
+PR's should contain [comprehensible commit
+messages](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
 
 ### Review PRs after standup, if not sooner
 As a distributed team, it's sometimes easy to miss reviewing a peer's PR. We don't want to stop the flow of work to have PRs reviewed immediately, but they should be looked at right after our morning Standup if they're still un-reviewed. The Waffle "Needs Review" column is the best place to see if there are open PRs that need someone's attention.
